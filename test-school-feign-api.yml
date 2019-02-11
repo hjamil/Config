@@ -1,0 +1,4 @@
+spring:
+  datasource:
+    driverClassName: com.mysql.jdbc.Driver
+    url: jdbc:mysql://mysql-dock:3306/SCHOOL_A?useUnicode=yes&characterEncoding=UTF-8
