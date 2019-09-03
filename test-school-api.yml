@@ -1,7 +1,7 @@
 eureka:
   client:
     serviceUrl:
-      defaultZone: http://discovery-jenkins-dock:8761/eureka/
+      defaultZone: http://localhost:8761/eureka/
 
 some:
   thing:
@@ -10,4 +10,4 @@ some:
 spring:
   datasource:
     driverClassName: com.mysql.jdbc.Driver
-    url: jdbc:mysql://mysql-dock:3306/SCHOOL_A?useUnicode=yes&characterEncoding=UTF-8
+    url: jdbc:mysql://localhost:3306/SCHOOL_A?useUnicode=yes&characterEncoding=UTF-8
